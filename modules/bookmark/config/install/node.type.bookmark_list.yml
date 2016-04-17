@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - listcontent_bookmark
+name: 'Bookmark list'
+type: forum
+description: 'Use <em>bookmark list</em> content for a list of bookmarks.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

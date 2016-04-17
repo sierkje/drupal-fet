@@ -1,0 +1,32 @@
+{
+  "name": "drupal/fet",
+  "description": "Drupal module 'List Content', lets users create content types to manage and display lists of things.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "require": {
+    "drupal/text": "8.*",
+    "drupal/user": "8.*"
+  },
+  "provide": {
+    "drupal/listcontent_bookmarks": "*",
+    "drupal/listcontent_faq": "*",
+    "drupal/listcontent_glossary": "*",
+    "drupal/listcontent_top40s": "*"
+  },
+  "suggest": {
+    "drupal/node": "8.*",
+    "drupal/views": "8.*"
+  },
+  "homepage": "https://www.drupal.org/sandbox/sierk/2706125",
+  "keywords": ["Drupal"],
+  "repositories": [{
+    "type": "composer",
+    "url": "https://packagist.drupal-composer.org"
+  }],
+  "authors": [{ "name": "sierkje", "email": "sierk@riseup.net" }],
+  "extra": {
+    "branch-alias": {
+      "dev-8.x-1.x": "8.1.x-dev"
+    }
+  }
+}

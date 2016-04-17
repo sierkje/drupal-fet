@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - listcontent_faq
+name: 'Frequently Asked Question list'
+type: forum
+description: 'Use <em>FAQ list</em> content for a list of questions and answers.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

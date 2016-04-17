@@ -1,0 +1,6 @@
+name: List content
+description: 'Allows for creating content types that display lists of things.'
+type: module
+core: '8.x'
+version: VERSION
+package: List content

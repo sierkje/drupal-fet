@@ -1,0 +1,10 @@
+name: Frequently Asked Question lists (FAQ)
+type: module
+description: 'Provides a content type to display lists of questions and their answers.'
+package: List content
+project: fet
+version: VERSION
+core: '8.x'
+dependencies:
+  - listcontent
+

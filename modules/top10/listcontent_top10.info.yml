@@ -1,0 +1,10 @@
+name: Top 40 lists
+type: module
+description: 'Provides a content type to display top 10 lists.'
+package: List content
+project: fet
+version: VERSION
+core: '8.x'
+dependencies:
+  - listcontent
+

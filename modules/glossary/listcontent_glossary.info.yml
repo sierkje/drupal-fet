@@ -1,0 +1,10 @@
+name: Glossary lists
+type: module
+description: 'Provides a content type to display lists of terms and their definitions.'
+package: List content
+project: fet
+version: VERSION
+core: '8.x'
+dependencies:
+  - listcontent
+

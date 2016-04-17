@@ -1,0 +1,10 @@
+name: Bookmark lists
+type: module
+description: 'Provides a content type to isplay lists of bookmarks.'
+package: List content
+project: fet
+version: VERSION
+core: '8.x'
+dependencies:
+  - listcontent
+
